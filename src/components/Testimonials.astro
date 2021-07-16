@@ -1,0 +1,47 @@
+---
+import Testimonial from './TestimonialItem.astro';
+import site from "../data/site.json";
+const title = `Don't take my word for it`;
+const {testimonials} = site;
+---
+<section id="testimonials">
+    <h2>{title}</h2>
+    <div class="testimonial-grid">
+        {testimonials.map(testimonial => (
+            <Testimonial item={testimonial} />
+        ))}
+    </div>
+</section>
+<style lang="scss">
+.testimonial-grid {
+    display: flex;
+    flex-direction: column;
+}
+</style>
+<script type="text/javascript">
+let slideIndex = 0;
+const reviews = document.querySelectorAll(".testimonial-item");
+function nextSlide(n) {
+  for (let j = 0; j < reviews.length; j++) {
+    if (j === slideIndex) {
+      // Remove show class
+      reviews[j].classList.remove("active");
+    } else if (j === n) {
+      if (n == 0) {
+        reviews[reviews.length - 1].classList.remove("active");
+      }
+      // Add class
+      reviews[j].classList.add("active");
+    }
+  }
+  slideIndex++;
+  if (slideIndex + 1 === reviews.length) {
+    slideIndex = -1;
+  }
+}
+
+nextSlide(slideIndex+1);
+setInterval(function() {
+  nextSlide(slideIndex + 1);
+}, 10000);
+</script>

@@ -1,0 +1,22 @@
+---
+import WorkItem from './WorkItem.astro';
+import site from "../data/site.json";
+const title = `Things I'm proud of`;
+const {work} = site;
+---
+<section id="work">
+    <h3>{title}</h3>
+    <div class="portfolio-grid">
+        {work.map((item) => (
+            <WorkItem item={item} />
+        ))}
+    </div>
+</section>
+<style lang="scss">
+.portfolio-grid {
+    display: grid;
+    @media (min-width: 450px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+</style>

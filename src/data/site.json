@@ -1,0 +1,192 @@
+{
+    "title": "Chris Bongers | Senior Full Stack Developer",
+    "description": "Chris Bongers - Portfolio, Full stack developer",
+    "url": "https://chrisbongers.com/",
+    "author": "Chris Bongers",
+    "profile_pic": "/assets/chris.jpg",
+    "resume": "/assets/resume.pdf",
+    "nav": [
+        {"link": "#skills", "name": "Skills"},
+        {"link": "#work", "name": "Work"},
+        {"link": "#footer", "name": "Contact"},
+        {"link": "https://daily-dev-tips.com/", "name": "Blog", "target": "_blank"}
+    ],
+    "skills": {
+        "comfortable": [
+            {"name": "HTML5", "icon": "html5"},
+            {"name": "CSS3", "icon": "css3"},
+            {"name": "JavaScript", "icon": "javascript"},
+            {"name": "TypeScript", "icon": "typescript"},
+            {"name": "PHP", "icon": "php"},
+            {"name": "Laravel", "icon": "laravel"},
+            {"name": "Angular", "icon": "angularjs"},
+            {"name": "Ionic", "icon": "ionic", "type": "original"},
+            {"name": "Node.js", "icon": "nodejs"},
+            {"name": "Git", "icon": "git"},
+            {"name": "MySQL", "icon": "mysql"},
+            {"name": "SASS", "icon": "sass"},
+            {"name": "Bootstrap", "icon": "bootstrap"},
+            {"name": "Tailwind", "icon": "tailwindcss"}
+        ],
+        "mastering": [
+            {"name": "Flutter", "icon": "flutter"},
+            {"name": "React", "icon": "react"},
+            {"name": "Next.js", "icon": "nextjs"}
+        ]
+    },
+    "work": [
+        {
+            "title": "Yaatree",
+            "description": "Our amazing puppy, who goes on all kinds of cool adventures",
+            "image": "/assets/yaatree.jpg"
+        },
+        {
+            "title": "Daily Dev Tips",
+            "description": "My Daily Development Tip Blog!",
+            "image": "/assets/daily-dev-tips.jpg",
+            "link": "https://daily-dev-tips.com/"
+        },
+        {
+            "title": "My Neighbor Totoro",
+            "description": "Completly build in CSS",
+            "image": "/assets/totoro.jpg",
+            "link": "https://codepen.io/rebelchris/full/rNOWbbK"
+        },
+        {
+            "title": "HQ Pack Service Center",
+            "description": "Symfony backend, with Angular front-end service center.",
+            "image": "/assets/hq-pack.jpg",
+            "info": "More info on request"
+        }
+    ],
+    "journey": {
+        "2030": [
+            {
+                "title": "Senior full stack remote developer ☁️",
+                "description": "It's my dream to be a senior full-stack developer who can work remotely."
+            }
+        ],
+        "2021": [
+            {
+                "title": "Got married 🍾",
+                "description": "We got married in the mountains of South Africa"
+            },
+            {
+                "title": "Blogged for a year non-stop",
+                "description": "Every single day one article!"
+            }
+        ],
+        "2020": [
+            {
+                "title": "Got engaged 💍",
+                "description": "My beautiful fiancé Nicole said, Yes!"
+            },
+            {
+                "title": "Started daily-dev-tips 🚀",
+                "description": "I started my blog, where I write daily development tips to help new people!"
+            }
+        ],
+        "2020": [
+            {
+                "title": "Moved back to South Africa ✈️",
+                "description": "This time for Laméco I moved back to South-Africa and fell in love with the country again."
+            }
+        ],
+        "2016": [
+            {
+                "title": "Senior developer 💪🏻",
+                "description": "I started as a senior developer at Laméco, working mainly on Symfony, Angular, and node.js projects. I also was responsible for mentoring students and new employees."
+            }
+        ],
+        "2015": [
+            {
+                "title": "Full-time app developer 📱",
+                "description": "I got hired by Bengees, a mobile app startup, to be the lead developer on an Ionic app!"
+            }
+        ],
+        "2014": [
+            {
+                "title": "First time to South-Africa 🇿🇦",
+                "description": "A nice perk of Engagement Factory was a work trip to South Africa, little did I know I would fall in love with the country."
+            },
+            {
+                "title": "Medior developer at engagement factory 🤓",
+                "description": "My hard work paid off, and I became a Medior Developer at Engagement Factory, picked up a lot of JavaScript, PHP and Marketing skills."
+            }
+        ],
+        "2013": [
+            {
+                "title": "Started my own company 🤯",
+                "description": "The moment I Graduated I also started my own company, which I still have on the side."
+            },
+            {
+                "title": "Graduated at Fontys 🎓",
+                "description": "Graduated the communication and multi-media Design course at Fontys Eindhoven."
+            }
+        ],
+        "2012": [
+            {
+                "title": "Won the Atos IT challenge 🏆",
+                "description": "In 2012 we entered the ATOS IT challenge, our team \"MultiLens\" finished first in this worldwide competition. My role in this project was project managing, development en thinking on features, and the global idea."
+            },
+            {
+                "title": "First tech job 🥳",
+                "description": "Started working as a PHP Developer for ScriptMotion, programming in CodeIgniter."
+            }
+        ],
+        "2012": [
+            {
+                "title": "I was born 👶",
+                "description": "This is where the whole journey started."
+            }
+        ]
+    },
+    "testimonials": [
+        {
+            "image": "/assets/nicole.jpg",
+            "name": "Nicole Bongers",
+            "title": "~ Wife",
+            "quote": "Chris is an amazing Fiancé and dog father!"
+        },
+        {
+            "image": "/assets/guus.jpg",
+            "name": "Guus Meuwissen",
+            "title": "~ Colleague",
+            "quote": "'Ridiculously fast' is the phrase that comes to mind when I think about Chris. I had the please of working with Chris for around 2 years at Engagement Factory, while collaborating on several project teams. Chris's ability to juggle multiple projects while always committing to the highest quality is truly exceptional. Hence the reason I would say Chris is one of the most dedicated professionals I've worked with and he's always willing to go the extra mile to help you when needed. Thanks Chris! "
+        },
+        {
+            "image": "/assets/amer.jpg",
+            "name": "Amer Jaganjac",
+            "title": "~ Mentee",
+            "quote": "Chris is a very intuitive and skilled mentor. I had enjoyed learning from him. Chris made efforts in pointing out fields for development in my professional performance, and advising me on how to become a better IT professional. Thank you Chris!"
+        }
+    ],
+    "socials": 
+        [
+            {
+                "link": "https://navillus.dev/",
+                "title": "Codepen",
+                "icon": "codepen"
+            },
+            {
+                "link": "https://twitter.com/DailyDevTips1",
+                "title": "Twitter",
+                "icon": "twitter"
+            },
+            {
+                "link": "https://www.linkedin.com/in/chrisbongers/",
+                "title": "LinkedIn",
+                "icon": "linkedin"
+            },
+            {
+                "link": "https://www.facebook.com/chris.bongers.92",
+                "title": "Facebook",
+                "icon": "facebook"
+            },
+            {
+                "link": "https://github.com/rebelchris",
+                "title": "GitHub",
+                "icon": "github"
+            }
+        ]
+}

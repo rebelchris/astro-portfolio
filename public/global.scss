@@ -1,0 +1,79 @@
+// Base
+:root {
+  --color-purple: #14213d;
+  --color-orange: #fca311;
+}
+body {
+  background: var(--color-purple);
+  color: #fff;
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  @media (max-width: 700px) {
+    padding: 0 24px;
+  }
+}
+
+* {
+  box-sizing: content-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+section {
+  margin-bottom: 100px;
+}
+.link {
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-orange);
+  color: inherit;
+}
+.tooltip-container {
+  position: relative;
+  &:hover {
+    .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .tooltip {
+    visibility: hidden;
+    width: 100px;
+    background-color: #e5e5e5;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #e5e5e5 transparent transparent transparent;
+    }
+  }
+}
