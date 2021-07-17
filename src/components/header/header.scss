@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: transparent;
+  z-index: 1;
+  &.active {
+    backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(20, 33, 61, 0.9);
+  }
+  ul {
+    padding: 0;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    li {
+      list-style: none;
+      a {
+        padding: 1rem;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.testimonial-grid {
+  display: flex;
+  flex-direction: column;
+}
+.testimonial-item {
+  background: #000;
+  width: 80%;
+  padding: 0px;
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+  transition: all 1s;
+  border-radius: 5px;
+  border: 2px solid var(--color-orange);
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    padding: 16px 24px;
+  }
+  &--inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    padding: 16px 24px;
+    img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      margin-right: 24px;
+    }
+  }
+}
